@@ -1,1 +1,13 @@
+n = int(input("please enter a number"))
 
+def reverseNum(n):
+    reverseNum=0
+    while n>0:
+        lastdigit = n%10
+        reverseNum = reverseNum*10+lastdigit
+        n=n//10
+    return reverseNum
+    
+    
+print(reverseNum(n))
+      
