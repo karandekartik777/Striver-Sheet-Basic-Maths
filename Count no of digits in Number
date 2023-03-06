@@ -1,0 +1,11 @@
+n = int(input("please enter a number"))
+
+def countdigit(n):
+        
+    nod = 0
+    while n>0:
+        n=n//10
+        nod +=1
+    return nod
+    
+print(countdigit(n))
