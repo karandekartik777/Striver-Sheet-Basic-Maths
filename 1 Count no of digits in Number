@@ -1,6 +1,6 @@
 n = int(input("please enter a number"))
 
-def countdigit(n):
+def countdigit(n): 
         
     nod = 0
     while n>0:
